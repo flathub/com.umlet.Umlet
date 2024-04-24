@@ -15,7 +15,6 @@ finish-args:
     - --socket=x11
     - --device=dri
     - --filesystem=xdg-documents
-    - --filesystem=xdg-config/fontconfig:ro
     - --env=PATH=/app/jre/bin:/usr/bin:/app/bin
     - --env=UMLET_HOME=/app/lib/umlet
 
